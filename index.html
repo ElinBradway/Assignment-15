@@ -12,27 +12,195 @@
     />
   </head>
   <body>
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="#">Active</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
+    <nav class="navbar navbar-center navbar-light bg-dark">
+      <a href="#" class="navbar-brand m-3">
+        <img src="images/fresh seafood.png" alt="logo" width="50" height="50"
+      /></a>
 
-    <div class="container">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" style="color: #f4f1ea" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #f4f1ea" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style="color: #f4f1ea" href="#">About</a>
+        </li>
+      </ul>
+      <div>
+        <button
+          type="button"
+          class="btn btn-info"
+          style="
+            padding-left: 2rem;
+            padding-right: 2rem;
+            color: #111;
+            border-color: #f4f1ea;
+            background-color: #f4f1ea !important;
+          "
+        >
+          Sign up
+        </button>
+        <button
+          type="button"
+          class="btn btn-outline-info m-3"
+          style="
+            padding-left: 2rem;
+            padding-right: 2rem;
+            color: #f4f1ea;
+            border-color: #f4f1ea !important;
+          "
+        >
+          Sign in
+        </button>
+      </div>
+    </nav>
+
+    <div
+      style="
+        background-image: url(/images/pablo-merchan-montes-vA-bK6svd48-unsplash.jpg);
+        width: 100%;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      "
+    >
+      <h1 style="color: #f4f1ea; padding-bottom: 30px">
+        Sign in to discover the location of our next secret dining experience!
+      </h1>
+      <div
+        class="form-floating mb-3"
+        d-flex
+        align-items-center
+        justify-content-center
+        style="width: 500px"
+      >
+        <input
+          type="email"
+          class="form-control"
+          id="floatingInput"
+          placeholder="name@example.com"
+        />
+        <label for="floatingInput">Email address</label>
+      </div>
+      <div class="form-floating" style="width: 500px">
+        <input
+          type="password"
+          class="form-control"
+          id="floatingPassword"
+          placeholder="Password"
+        />
+        <label for="floatingPassword">Password</label>
+      </div>
+      <button
+        type="button"
+        class="btn btn-outline-primary mt-3"
+        style="
+          --bs-btn-padding-y: 1rem;
+          --bs-btn-padding-x: 4rem;
+          --bs-btn-font-size: 1rem;
+          --bs-btn-color: #f4f1ea;
+          border-color: #f4f1ea !important;
+        "
+      >
+        Sign in
+      </button>
+    </div>
+
+    <div class="container text-center justify-content-spacebetween mt-4 mb-4">
       <div class="row">
-        <div class="col"></div>
-        <div class="col"></div>
+        <div class="col">
+          <div class="card" style="width: 20rem">
+            <img
+              src="images/polina-kuzovkova-kUcqLw84x8c-unsplash.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 20rem">
+            <img
+              src="images/pablo-merchan-montes-vA-bK6svd48-unsplash.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 20rem">
+            <img
+              src="images/polina-kuzovkova-ki-vpgj0FnQ-unsplash.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
+
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+      <section>
+        <div class="container text-center text-md-start mt-5">
+          <div class="row mt-3">
+            <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>Secret Diner
+              </h6>
+              <p>Slogan or something.</p>
+            </div>
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Useful links</h6>
+              <p>
+                <a href="#!" class="text-reset">Pricing</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Orders</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Help</a>
+              </p>
+            </div>
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+              <p><i class="fas fa-home me-3"></i> London, EN</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                info@example.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> + 55 55 555 55</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="text-center p-4" style="background-color: #9e7e59 !important">
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="#">something.com</a>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
